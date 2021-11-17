@@ -1,0 +1,223 @@
+{
+	"intentos":3,
+	"nota_aprobacion":0.8,
+	"limite_preguntas":10,
+	"mostrar_numero_pregunta":true,
+	"finalizacionTest":"cerrado",
+    "guardarIntentos": false,
+	"guardarObjetivos": false,
+	"modulos" : [{
+		"id":"1",
+		"titulo" : "Módulo 1",
+		"preguntas_aleatorias":false,
+		"preguntas" : [
+			{
+				"titulo" : "Se ha de señalizar: ",
+                "id" : "1",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				"respuestas" : [
+					{
+						"id":"1_1_1",
+						"description" : "Cuando no existen medidas de protección colectiva de suficiente eficacia.",
+						"correcta":true
+					},
+					{
+						"id":"1_1_2",
+						"description" : "Siempre."
+					},
+					{
+						"id":"1_1_3",
+						"description" : "Sólo cuando lo indique tu superior."
+					}
+				]
+			},
+			{
+				"titulo" : "Señala la respuesta correcta:",
+                "id" : "2",
+				"respuestas_aleatorias":false,
+				"respuestas" : [
+					{
+						"id":"1_2_1",
+						"description" : "Señal de prohibición: advierte de la existencia de un riesgo y/o peligro."
+					},
+					{
+						"id":"1_2_2",
+						"description" : "Señal de advertencia: prohíbe un comportamiento susceptible de provocar un riesgo."
+					},
+					{
+						"id":"1_2_3",
+						"description" : "Señal de obligación: obliga a un determinado comportamiento seguro.",
+						"correcta":true
+					}
+				]
+			},
+			{
+				"titulo" : "Los principales tipos de señalización son: ",
+                "id" : "3",
+				"respuestas_aleatorias":false,
+				"respuestas" : [
+					{
+						"id":"1_3_1",
+						"description" : "Prohibición, advertencia, salvamento o socorro y lucha contra incendios."
+					},
+					{
+						"id":"1_3_2",
+						"description" : "Prohibición, advertencia, obligación, salvamento o socorro y lucha contra incendios.",
+						"correcta":true
+					},
+					{
+						"id":"1_3_3",
+						"description" : "Prohibición, advertencia, obligación y lucha contra incendios. "
+					}
+				]
+			},
+			{
+				"titulo" : "La señalización:",
+                "id" : "4",
+				"respuestas_aleatorias":false,
+				"respuestas" : [
+					{
+						"id":"1_4_1",
+						"description" : "No es una técnica de seguridad."
+					},
+					{
+						"id":"1_4_2",
+						"description" : "Es una técnica de seguridad que elimina el riesgo por sí misma."
+					},
+					{
+						"id":"1_4_3",
+						"description" : "Es una técnica de seguridad que no elimina el riesgo por sí misma.",
+						"correcta":true
+					}
+				]
+			},{
+				"titulo" : "La señalización: ",
+                "id" : "5",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_5_1",
+						"description" : "Sustituye las medidas de prevención establecidas."
+					},
+					{
+						"id":"1_5_2",
+						"description" : "No es una medida de prevención."
+					},
+					{
+						"id":"1_5_3",
+						"description" : "No sustituye las medidas de prevención establecidas.",
+						"correcta":true
+					}
+				]
+			},{
+				"titulo" : "La señalización:",
+                "id" : "6",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_6_1",
+						"description" : "Ha de ser clara y de interpretación única.",
+						"correcta":true
+					},
+					{
+						"id":"1_6_2",
+						"description" : "Ha de ser clara y de interpretación variable."
+					},
+					{
+						"id":"1_6_3",
+						"description" : "Es de cumplimiento voluntario."
+					}
+				]
+			},{
+				"titulo" : "Las señales de prohibición en la estación de servicio:",
+                "id" : "7",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_7_1",
+						"description" : "Prohíben cualquier tipo de comportamiento."
+					},
+					{
+						"id":"1_7_2",
+						"description" : "Prohíben un comportamiento susceptible de provocar un riesgo.",
+						"correcta":true
+					},
+					{
+						"id":"1_7_3",
+						"description" : "No prohíben acciones que pueden desencadenar un incidente."
+					}
+				]
+			},{
+				"titulo" : "Las señales de obligación son aquellas señales que obligan:",
+                "id" : "8",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_8_1",
+						"description" : "A un comportamiento determinado.",
+						"correcta":true
+					},
+					{
+						"id":"1_8_2",
+						"description" : "Sólo a los empleados de la estación."
+					},
+					{
+						"id":"1_8_3",
+						"description" : "Sólo a los clientes de la estación."
+					}
+				]
+			},{
+				"titulo" : "Las señales de lucha contra incendios: ",
+                "id" : "9",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_9_1",
+						"description" : "Indican el tipo de extintor."
+					},
+					{
+						"id":"1_9_2",
+						"description" : "Son circulares y de color rojo y blanco."
+					},
+					{
+						"id":"1_9_3",
+						"description" : "Son aquellas señales que indican el tipo de equipo de protección que es y su ubicación",
+						"correcta":true
+					}
+				]
+			},{
+				"titulo" : "Señala la respuesta correcta: ",
+                "id" : "10",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_10_1",
+						"description" : "a-. Las señales de salvamento o socorro proporcionan indicaciones relativas a las salidas de socorro, a los primeros auxilios o a los dispositivos de salvamento.",
+						"correcta":true
+					},
+					{
+						"id":"1_10_2",
+						"description" : "Las señales de obligación son circulares y de color rojo y blanco."
+					},
+					{
+						"id":"1_10_3",
+						"description" : "Las señales de advertencia nos indican zonas de posibles incidentes, son circulares y de color azul y blanco."
+					}
+				]
+			}
+		]
+	}]
+}

@@ -1,0 +1,85 @@
+/*--------------------------------
+	# GENERIC VARIABLES
+--------------------------------*/
+
+.rps-pestanias .titulo-seccion-item {
+  font-size: 1.313em;
+  font-family: 'titilliumregular';
+  font-weight: 600;
+  border-bottom: 2px solid #e0ded9;
+  padding-bottom: 0.476em;
+  margin-bottom: 0.952em;
+}
+
+.rps-pestanias .nav-tabs {
+  border: none;
+}
+.rps-pestanias .nav li .pestana-link.active,
+.rps-pestanias .nav li .pestana-link.active:focus,
+.rps-pestanias .nav li .pestana-link.active:hover {
+  border-bottom: solid 2px;
+  background-color: transparent;
+  padding-bottom: 1.5vh;
+}
+
+.rps-pestanias .nav-tabs > li .pestana-inactiva {
+  font-family: 'titilliumregular';
+  font-size: 0.938em;
+  color: #e0ded9;
+  cursor: default;
+  border-color: transparent;
+}
+.rps-pestanias .nav-tabs li {
+	/* padding: 1vw !important; */
+	text-align: center;
+}
+
+
+.rps-pestanias .nav li .pestana-link {
+  /* font-family: 'titilliumregular'; */
+  /* font-size: 0.938em; */
+  /* color: #5c4e44; */
+  padding-left: 1.750em;
+  padding-right: 1.750em;
+  /* margin-right: 3.650em; */
+}
+
+.rps-pestanias .nav li .pestana-link:hover {
+  border-color: transparent;
+  background-color: transparent;
+  /* color: #e67600; */
+}
+
+.rps-pestanias .nav li > .pestana-inactiva:focus,
+.rps-pestanias .nav li > .pestana-inactiva:hover {
+  background-color: transparent;
+  border-color: transparent;
+  color: #e0ded9;
+}
+
+.rps-pestanias .tab-content {
+  margin-top: 1.875em;
+}
+
+.rps-pestanias .texto-panel-pestana {
+  /* font-family: 'titilliumregular'; */
+}
+
+@media screen and (max-width: 767px) {
+  .rps-pestanias .nav-tabs {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .rps-pestanias .nav li .pestana-link {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .rps-pestanias .nav li .pestana-inactiva {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

@@ -1,0 +1,223 @@
+{
+	"intentos":3,
+	"nota_aprobacion":0.8,
+	"limite_preguntas":10,
+	"mostrar_numero_pregunta":true,
+	"finalizacionTest":"cerrado",
+    "guardarIntentos": false,
+	"guardarObjetivos": false,
+	"modulos" : [{
+		"id":"1",
+		"titulo" : "Módulo 1",
+		"preguntas_aleatorias":false,
+		"preguntas" : [
+			{
+				"titulo" : "Con relación a la gasolina y el gasóleo: ",
+                "id" : "1",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				"respuestas" : [
+					{
+						"id":"1_1_1",
+						"description" : "Solo el gasóleo emite gases altamente inflamables, que mezclados con el oxígeno del aire y en presencia de una fuente de calor se inflaman, incendian o explotan."
+					},
+					{
+						"id":"1_1_2",
+						"description" : "Emiten vapores altamente inflamables, que mezclados con el oxígeno del aire y en presencia de una fuente de calor se inflaman, incendian o explotan.",
+						"correcta":true
+					},
+					{
+						"id":"1_1_3",
+						"description" : "Ninguno emite vapores inflamables"
+					}
+				]
+			},
+			{
+				"titulo" : "Respecto al punto de inflamación:",
+                "id" : "2",
+				"respuestas_aleatorias":false,
+				"respuestas" : [
+					{
+						"id":"1_2_1",
+						"description" : "La gasolina emite vapores desde los -48ºC y el gasoil desde los 55ºC.",
+						"correcta":true
+					},
+					{
+						"id":"1_2_2",
+						"description" : "El gasoil emite vapores desde los -55ºC y la gasolina desde los -48ºC."
+					},
+					{
+						"id":"1_2_3",
+						"description" : "Gasolina y gasoil emiten vapores desde los -48ºC."
+					}
+				]
+			},
+			{
+				"titulo" : "Los vapores generados por la gasolina y el gasoil:",
+                "id" : "3",
+				"respuestas_aleatorias":false,
+				"respuestas" : [
+					{
+						"id":"1_3_1",
+						"description" : "Son más pesados que el aire (descienden) y no se disipan con facilidad en zonas poco ventiladas.",
+						"correcta":true
+					},
+					{
+						"id":"1_3_2",
+						"description" : "Son más ligeros que el aire (ascienden) y no se disipan con facilidad en zonas poco ventiladas."
+					},
+					{
+						"id":"1_3_3",
+						"description" : "Los de la gasolina son más pesados (descienden) y los del gasoil son más ligeros (ascienden) que el aire."
+					}
+				]
+			},
+			{
+				"titulo" : "Cuando se produzcan pequeños derrames en pista:",
+                "id" : "4",
+				"respuestas_aleatorias":false,
+				"respuestas" : [
+					{
+						"id":"1_4_1",
+						"description" : "Señaliza la zona y llama al gestor de residuos."
+					},
+					{
+						"id":"1_4_2",
+						"description" : "Recógelos lo antes posible con serrín y deséchalos en los bidones apropiados."
+					},
+					{
+						"id":"1_4_3",
+						"description" : "Recógelos lo antes posible con sepiolita y deséchalos en los bidones apropiados.",
+						"correcta":true
+					}
+				]
+			},{
+				"titulo" : "En las zonas clasificadas:",
+                "id" : "5",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_5_1",
+						"description" : "No se puede fumar, pero se podrá utilizar el teléfono móvil."
+					},
+					{
+						"id":"1_5_2",
+						"description" : "Se podrá repostar con las luces encendidas."
+					},
+					{
+						"id":"1_5_3",
+						"description" : "No permitir utilizar cualquier elemento que pueda generar fuego o chispa.",
+						"correcta":true
+					}
+				]
+			},{
+				"titulo" : "Con relación al teléfono móvil:",
+                "id" : "6",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_6_1",
+						"description" : "Se puede utilizar en la pista si no se está repostando el vehículo."
+					},
+					{
+						"id":"1_6_2",
+						"description" : "Está prohibido utilizarlo fuera del coche o de la tienda y en el interior del vehículo mientras dure la operación de repostaje.",
+						"correcta":true
+					},
+					{
+						"id":"1_6_3",
+						"description" : "Se puede utilizar durante el repostaje si se está dentro del vehículo. "
+					}
+				]
+			},{
+				"titulo" : "Si durante la medición manual del nivel de un tanque se te caen las llaves al interior de la arqueta boca de hombre:",
+                "id" : "7",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_7_1",
+						"description" : "Señaliza la zona y accede al interior avisando previamente a tu responsable."
+					},
+					{
+						"id":"1_7_2",
+						"description" : "No accedas al interior y sácalas con pinzas metálicas."
+					},
+					{
+						"id":"1_7_3",
+						"description" : "Está prohibido llevar a esta operación cualquier herramienta que al caer a la arqueta pueda ocasionar chispas. Si ocurre y se te caen, avisa a tu responsable y no accedas al interior.",
+						"correcta":true
+					}
+				]
+			},{
+				"titulo" : "Cuando trabajes utilizando el horno:",
+                "id" : "8",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_8_1",
+						"description" : "Abre el horno de forma gradual y sitúate de tal forma que no estés expuesto al golpe de calor.",
+						"correcta":true
+					},
+					{
+						"id":"1_8_2",
+						"description" : "Utiliza los E.P.I´s (guantes de protección mecánica) para abrir la puerta del horno."
+					},
+					{
+						"id":"1_8_3",
+						"description" : "Revisa que existe un extintor de agua en las proximidades del horno. "
+					}
+				]
+			},{
+				"titulo" : "Señala la respuesta correcta:",
+                "id" : "9",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_9_1",
+						"description" : "Puedes apilar mercancía en el almacén hasta una altura de 2 metros."
+					},
+					{
+						"id":"1_9_2",
+						"description" : "En el cuarto del compresor almacena los productos inflamables."
+					},
+					{
+						"id":"1_9_3",
+						"description" : "En el trasvase de productos de lavado entre recipientes utiliza los guantes y las gafas de seguridad.",
+						"correcta":true
+					}
+				]
+			},{
+				"titulo" : "En el sótano:",
+                "id" : "10",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_10_1",
+						"description" : "Es imposible que se acumulen gases o vapores de combustible, al ser estos más ligeros que el aire."
+					},
+					{
+						"id":"1_10_2",
+						"description" : "Está prohibida la utilización de equipos eléctricos que no dispongan de marcado EX (atex).",
+						"correcta":true
+					},
+					{
+						"id":"1_10_3",
+						"description" : "Almacena la mercancía delante de los detectores de gases."
+					}
+				]
+			}
+		]
+	}]
+}

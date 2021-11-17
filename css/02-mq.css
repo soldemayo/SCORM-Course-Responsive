@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+
+/* Smartphones (portrait & landscape) */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	.carousel-control-next, .carousel-control-prev{
+		display: none !important
+	}
+}
+/* Smartphones (landscape) */
+@media only screen 
+and (min-width : 321px) {
+
+}
+/* Smartphones (portrait) */
+@media only screen 
+and (max-device-width : 480px) {
+	body{
+		/* overflow: auto; */
+	}
+	
+	.position-absolute{
+		position: relative !important;
+	}
+	
+	iframe{
+		min-height: 200vh !important;
+		margin-top: 5vh;
+		margin-bottom: 10vh;
+		}
+	.carousel{
+		height: auto;
+	}
+
+	main{
+		height: 86vh;
+		overflow: auto;
+	}
+	#pagina{
+		padding: 2vw;
+		min-height: 86vh;
+	}
+		#pagina.modulo, #pagina.pagTest{
+		min-height: 86vh;
+	}
+	#pagina .nav li {
+    text-align: center;
+    padding-top: 1.4vh;
+    padding-bottom: 1.4vh;
+ }
+	#menu{
+		max-width: 100%;
+		width: 100%;
+		height: 100%;
+		left: -100%;
+	}
+	#menu h2 {
+    padding: 7vw;
+	}
+	
+	#menu ul{
+		padding: 5vw;
+	}
+	#menu ul li{
+		padding: 1vh;
+	}
+	#inicio .colN400{
+		height: 11vh;
+	}
+	#inicio .colIMG{
+		background-size: cover !important;
+		height: 45vh;
+	}
+	button {
+    width: auto !important;
+    padding: 2vw !important;
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+    border-radius: 5px;
+ }
+	
+	.colN400{
+		height: 5vh;
+	}
+	.colIMG{
+		height: 15vh
+	}
+	.h-20vh{
+		height: 20vh;
+	}
+	.logoCabecera{
+		display: none
+	}
+	.logoMovil{
+		display: block !important;
+	}
+	header .tituloCurso{
+		margin-left: auto;
+		padding-left: 2vw;
+	}
+	header .tituloCurso h3{
+		font-size: 2vh;
+		line-height: 2vh;
+		margin-left: 1vw;
+		display: none;
+	}
+	i {
+    padding: 1vw;
+	}
+	footer{
+		display: none !important;
+	}
+	
+	footer.movil{
+		position: fixed;
+		bottom: 0;
+		display: flex !important;
+		justify-content: space-between;
+	}
+	footer.movil i{
+		height: 100%;
+		width: 15%;
+		margin: 0;
+		opacity: 1;
+		border-radius: 0;
+		font-size: 7vh;
+		text-align: center;
+		background-color: #03809a;
+		color: #FFF;
+		padding: 0;
+	}
+	footer.movil .nextInactivo, footer.movil .prevInactivo, footer.movil .nextMuestra, footer.movil .prevMuestra{
+		background-color: #DDDDDD;
+		pointer-events: none;
+		transition: all .2s linear;
+	}
+	
+	#progresoGral{
+		margin: 0;
+		width: 25vw;
+		height: 25vw;
+		margin-top: -5.5vh;
+		border: 5px solid #FFF;
+	}
+	.progress:after {
+    border: 3vw solid #DDDDDD;
+}
+	.progress .progress-bar {border-width: 3vw;}
+	#numeracion{
+		margin: 0;
+		justify-self: center;
+		align-content: center;
+		display: flex;
+	}
+	
+	.numeros{
+		margin: auto;
+	}
+	
+}

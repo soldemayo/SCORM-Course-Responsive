@@ -1,0 +1,223 @@
+{
+	"intentos":3,
+	"nota_aprobacion":0.8,
+	"limite_preguntas":10,
+	"mostrar_numero_pregunta":true,
+	"finalizacionTest":"cerrado",
+    "guardarIntentos": false,
+	"guardarObjetivos": false,
+	"modulos" : [{
+		"id":"1",
+		"titulo" : "Módulo 1",
+		"preguntas_aleatorias":false,
+		"preguntas" : [
+			{
+				"titulo" : "El Plan de emergencia:",
+                "id" : "1",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				"respuestas" : [
+					{
+						"id":"1_1_1",
+						"description" : "Estará bajo llave y podrá ser analizado por la inspección de trabajo."
+					},
+					{
+						"id":"1_1_2",
+						"description" : "Será el mismo en todas las estaciones de servicio."
+					},
+					{
+						"id":"1_1_3",
+						"description" : "Debe estar disponible para su consulta por parte de todos los empleados.",
+						"correcta":true
+					}
+				]
+			},
+			{
+				"titulo" : "Para prevenir y evitar la realización de actos delictivos deberemos:",
+                "id" : "2",
+				"respuestas_aleatorias":false,
+				"respuestas" : [
+					{
+						"id":"1_2_1",
+						"description" : "Guardar en la caja fuerte el dinero que sobrepase el límite de caja establecido.",
+						"correcta":true
+					},
+					{
+						"id":"1_2_2",
+						"description" : "Limitar a 600 euros la cantidad máxima de efectivo en caja."
+					},
+					{
+						"id":"1_2_3",
+						"description" : "Abrir las puertas de acceso a tienda y evitar trabajar mediante pasapaquetes en horario nocturno."
+					}
+				]
+			},
+			{
+				"titulo" : "Ante un conato de incendio:",
+                "id" : "3",
+				"respuestas_aleatorias":false,
+				"respuestas" : [
+					{
+						"id":"1_3_1",
+						"description" : "Activa la parada de emergencia sólo si el conato se descontrola."
+					},
+					{
+						"id":"1_3_2",
+						"description" : "Avisa inmediatamente a los servicios de emergencia externos a través del 112."
+					},
+					{
+						"id":"1_3_3",
+						"description" : "Utiliza los medios (extintores) adecuados para controlar el incendio y avisa al responsable de la ES.",
+						"correcta":true
+					}
+				]
+			},
+			{
+				"titulo" : "Los extintores ubicados al lado de equipos eléctricos: ",
+                "id" : "4",
+				"respuestas_aleatorias":false,
+				"respuestas" : [
+					{
+						"id":"1_4_1",
+						"description" : "Son extintores de CO2 y son los más eficaces para conatos de incendio en equipos eléctricos como el cuadro eléctrico, el horno y el compresor.",
+						"correcta":true
+					},
+					{
+						"id":"1_4_2",
+						"description" : "Son extintores de polvo polivalente y son los más eficaces para conatos de incendio en equipos eléctricos como el cuadro eléctrico, el horno y el compresor."
+					},
+					{
+						"id":"1_4_3",
+						"description" : "Son extintores de agua y son los más eficaces para conatos de incendio en equipos eléctricos como el cuadro eléctrico, el horno y el compresor."
+					}
+				]
+			},{
+				"titulo" : "Con relación al manejo de extintores:",
+                "id" : "5",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_5_1",
+						"description" : "Evita quitar la anilla y el precinto de seguridad."
+					},
+					{
+						"id":"1_5_2",
+						"description" : "Ataca el fuego colocándote siempre en contra del viento."
+					},
+					{
+						"id":"1_5_3",
+						"description" : "Dirige la boquilla en dirección a la base de las llamas.",
+						"correcta":true
+					}
+				]
+			},{
+				"titulo" : "Caso de fuga de producto o derrame:",
+                "id" : "6",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_6_1",
+						"description" : "No actives la parada de emergencia."
+					},
+					{
+						"id":"1_6_2",
+						"description" : "Utiliza serrín como material absorbente."
+					},
+					{
+						"id":"1_6_3",
+						"description" : "Utilizar sepiolita y aísla la zona.",
+						"correcta":true
+					}
+				]
+			},{
+				"titulo" : "Ante una fuga que no se puede controlar con los medios existentes en la estación de servicio: ",
+                "id" : "7",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_7_1",
+						"description" : "Avisa inmediatamente a los servicios de emergencia externos a través del 112.",
+						"correcta":true
+					},
+					{
+						"id":"1_7_2",
+						"description" : "No cierres los accesos a la estación de servicio. "
+					},
+					{
+						"id":"1_7_3",
+						"description" : "Evacúa a los clientes, pero permanece en el interior de la estación hasta la llegada de los medios de emergencia. "
+					}
+				]
+			},{
+				"titulo" : "La actuación inicial ante una emergencia se resume en la conducta:",
+                "id" : "8",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_8_1",
+						"description" : "Proteger, alertar, socorrer.",
+						"correcta":true
+					},
+					{
+						"id":"1_8_2",
+						"description" : "Alertar, socorrer, proteger."
+					},
+					{
+						"id":"1_8_3",
+						"description" : "Socorrer, proteger, alertar."
+					}
+				]
+			},{
+				"titulo" : "Para realizar con precisión la acción de primeros auxilios, es importante tener en cuenta las siguientes normas:",
+                "id" : "9",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_9_1",
+						"description" : "Retirarse al accidentado del lugar en que se encuentra."
+					},
+					{
+						"id":"1_9_2",
+						"description" : "Da de beber al accidentado en caso de pérdida del conocimiento."
+					},
+					{
+						"id":"1_9_3",
+						"description" : "Hay que procurar que la víctima no se enfríe, tapándola con mantas y manteniendo el ambiente a una temperatura agradable.",
+						"correcta":true
+					}
+				]
+			},{
+				"titulo" : "En la estación de servicio disponemos de extintores de:",
+                "id" : "10",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_10_1",
+						"description" : "CO2, polvo polivalente y agua."
+					},
+					{
+						"id":"1_10_2",
+						"description" : "Espuma y polvo polivalente."
+					},
+					{
+						"id":"1_10_3",
+						"description" : "CO2 y polvo polivalente.",
+						"correcta":true
+					}
+				]
+			}
+		]
+	}]
+}

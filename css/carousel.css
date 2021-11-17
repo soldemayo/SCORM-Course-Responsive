@@ -1,0 +1,106 @@
+.tooltip > .tooltip-inner {
+	background-color: #00ADC3;
+	color: #FFF;;
+}
+
+.tooltip > .arrow {
+	display: none;
+}
+
+.carousel{
+	height: 85vh;
+	/* padding: 1vw; */
+	/* padding-left: 2vw; */
+	/* padding-right: 2vw; */
+}
+
+.carousel-inner, .carousel-item{
+}
+
+.carousel-control-next, .carousel-control-prev{
+	width: 3vw;
+	/* background-image: linear-gradient(90deg,rgba(0,0,0,0.00), rgba(0,0,0,0.2)); */
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all .2s linear;
+	opacity: 1;
+}
+.carousel-control-next::before, .carousel-control-prev::before{
+	content: url("../img/int/next.svg");
+	position: absolute;
+	width: 70%;
+	left: 20%;
+}
+.carousel-control-prev{
+	transform: rotate(180deg);
+}
+.carousel-control-next span, .carousel-control-prev span{
+	color: #EC641C;
+	margin-right: auto;
+	display: none;
+}
+.carousel-control-prev span{
+	transform: rotate(180deg);
+}
+
+
+.retardo03s {
+animation-delay: 0.3s;
+}
+.retardo04s {
+animation-delay: 0.4s;
+}
+.retardo05s {
+animation-delay: 0.5s;
+}
+.retardo06s {
+animation-delay: 0.6s;
+}
+.retardo1s {
+animation-delay: 1s;
+}
+.retardo2s {
+animation-delay: 2s;
+}
+.retardo3s {
+animation-delay: 3s;
+}
+.retardo4s {
+animation-delay: 4s;
+}
+.retardo5s {
+animation-delay: 5s;
+}
+.retardo6s {
+animation-delay: 6s;
+}
+.retardo7s {
+animation-delay: 7s;
+}
+.retardo8s {
+animation-delay: 8s;
+}
+.retardo9s {
+animation-delay: 9s;
+}
+.retardo10s {
+animation-delay: 10s;
+}
+.btnInactivo{
+	display: none !important;
+}
+@keyframes animHabilitadoNext {
+  0%{
+	  opacity: 0;
+  }
+  50% {
+	  opacity: 1;
+	  transform: scale(1.2);
+  }
+}
+.animNext {
+	animation: animHabilitadoNext 1s 5;  /* Relaciona con @keyframes */
+	display: flex !important;
+	background: transparent !important;
+	transition: all .2s linear;
+}

@@ -1,0 +1,33 @@
+.accordion button{
+	background: transparent;
+	width: 90%;
+	text-align: left;
+	color: #03809A;
+	padding: 0;
+	outline: none;
+}
+
+.accordion .card, .accordion .card:first-of-type, .accordion .card:not(:first-of-type):not(:last-of-type) {
+	background-color: #FFF;
+	border: none;
+	border-bottom: 1px solid #FF8200;
+	color: #464646;
+}
+.accordion .card-header {
+	background-color: #FFF;
+	border: none;
+}
+.accordion .card-body {
+	background-color: #FFF;
+	border: none;
+}
+.accordion i {
+    position: absolute;
+	right: 0;
+}
+.accordion [data-toggle="collapse"] i {
+    transform: rotate(-180deg);
+}
+.accordion [data-toggle="collapse"].collapsed i {
+    transform: rotate(0deg);
+}

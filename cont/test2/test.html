@@ -1,0 +1,90 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>.:: TEST ::.</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/preguntas.css" rel="stylesheet" type="text/css">
+    <link href="css/cuerpo.css" rel="stylesheet" type="text/css">
+    <link href="css/font.css" rel="stylesheet" type="text/css">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap-dialog.min.css" rel="stylesheet" type="text/css">
+    <link href="css/pop.css" rel="stylesheet" type="text/css">
+    <link href="css/estiolosib.css" rel="stylesheet" type="text/css">
+    <link href="css/input.css" rel="stylesheet" type="text/css">
+    <link href="../../css/fontRepsol/fontRepsol.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+
+    <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="js/sdmTest.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/bootstrap-dialog.min.js"></script>
+</head>
+<body>
+<div id="caja">
+	<button id="botonTEST" class="primario" style="margin: auto;"><p>Comenzar</p><i>touch_app</i></button>
+</div>
+
+<!-- sdm_test='1;x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,x15,x16,x17,x18,x19,x20;0.7' -->
+<div id="cuerpo">
+<div class="scrollTest"><p>Scroll</p><i>south</i></div>
+
+    <div id="cabecera">
+        <div class="titulo"><p>Gateway Programme</p><span>Tratamiento de primera línea del cáncer de ovario </span></div>
+        <div class="intentosTotal">Intentos Restantes: <strong id="intentosR">0</strong></div>
+
+    </div>
+    <div sdm_button="e" title="Revisar" class="boton revisar secundario">Revisar</div>
+
+
+    <ul id="numerada"></ul>
+	    <div id="resultados">
+        <div id="resultados2">
+            <p><span sdm_test_feedback="d"></span></p>
+            <p>Preguntas correctas: <span sdm_test_feedback="a"></span></p>
+            <p>Preguntas totales: <span sdm_test_feedback="b"></span></p>
+            <p>Porcentaje aciertos: <span sdm_test_feedback="c"></span></p>
+            <p>Porcentaje para aprobar: <span>80%</span></p>
+<!--            <p>Intentos realizados: <span sdm_test_feedback="fail"></span> / 3</p>-->
+            <!--<h1 class="tituloCorreccion">Correccion del Exámen</h1>-->
+        </div>
+    </div>
+    <div id="botonera">
+        <div id="textosAclaratorios">
+            <p><strong>Salir:</strong> Cerrará la ventana del test y perderá sus respuestas si antes no a las ha
+                guardado con el botón “guardar”.</p>
+            <p><strong>Guardar:</strong> Guardará las respuestas del test. Podrá volver a acceder para continuar con el
+                test y cambiar las respuestas.</p>
+            <p><strong>Enviar:</strong> Entregará definitivamente el test. Una vez enviado no podrá modificar las
+                respuestas y podrá ver la corrección del mismo.</p>
+        </div>
+        <button sdm_button="b" title="Enviar" class="boton enviar primario">Corregir</button>
+        <button sdm_button="a" title="Guardar" class="boton guardar">Guardar</button>
+		<button sdm_button="d" title="Reintentar" class="boton reintentar primario">Reintentar</button>
+		<button sdm_button="c" title="Salir" class="boton salir finalizar primario">Finalizar</button>
+
+
+
+
+    </div>
+</div>
+<div class="popAprobado">
+    <div id="popAprobadoIntentos">
+        <p>El Test está aprobado, pero tienes la oportunidad de volver a realizarlo (botón Reintentar) o de revisar tus
+            respuestas (botón Revisar).</p>
+        <p>Se guardará la puntuación más alta que consigas.</p>
+    </div>
+    <div id="popAprobado">
+        <p>El Test está aprobado y has agotado los intentos, solo puedes revisar tus respuestas.</p>
+    </div>
+    <div id="popDesaprobado">
+        <p>El Test está suspenso y has agotado los intentos, por tanto, solo puedes revisar tus respuestas.</p>
+    </div>
+</div>
+
+</body>
+</html>

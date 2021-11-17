@@ -1,0 +1,223 @@
+{
+	"intentos":3,
+	"nota_aprobacion":0.8,
+	"limite_preguntas":10,
+	"mostrar_numero_pregunta":true,
+	"finalizacionTest":"cerrado",
+    "guardarIntentos": false,
+	"guardarObjetivos": false,
+	"modulos" : [{
+		"id":"1",
+		"titulo" : "Módulo 1",
+		"preguntas_aleatorias":false,
+		"preguntas" : [
+			{
+				"titulo" : "Son medidas de protección en materia preventiva:",
+                "id" : "1",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				"respuestas" : [
+					{
+						"id":"1_1_1",
+						"description" : "Las individuales, colectivas, técnicas, organizativas y los procedimientos seguros.",
+						"correcta":true
+					},
+					{
+						"id":"1_1_2",
+						"description" : "Todo tipo de señalización. "
+					},
+					{
+						"id":"1_1_3",
+						"description" : "La ropa de trabajo. "
+					}
+				]
+			},
+			{
+				"titulo" : "La actividad preventiva consiste en:",
+                "id" : "2",
+				"respuestas_aleatorias":false,
+				"respuestas" : [
+					{
+						"id":"1_2_1",
+						"description" : "Eliminar los riesgos derivados del trabajo."
+					},
+					{
+						"id":"1_2_2",
+						"description" : "La identificación de riesgos y la adopción de medidas destinadas a evitar o disminuir los riesgos derivados del trabajo.",
+						"correcta":true
+					},
+					{
+						"id":"1_2_3",
+						"description" : "Identificar los riesgos de probabilidad media o alta y adoptar medidas para eliminarlos."
+					}
+				]
+			},
+			{
+				"titulo" : "La Evaluación de riesgos laborales:",
+                "id" : "3",
+				"respuestas_aleatorias":false,
+				"respuestas" : [
+					{
+						"id":"1_3_1",
+						"description" : "Debes solicitarla a tu responsable antes de empezar a trabajar en la estación de servicio.",
+						"correcta":true
+					},
+					{
+						"id":"1_3_2",
+						"description" : "Debes solicitarla a tu responsable una vez finalizado el período de prueba."
+					},
+					{
+						"id":"1_3_3",
+						"description" : "Es un documento oficial que estará solo disponible para la inspección de trabajo."
+					}
+				]
+			},
+			{
+				"titulo" : "La responsabilidad de la seguridad en la estación de servicio es de:",
+                "id" : "4",
+				"respuestas_aleatorias":false,
+				"respuestas" : [
+					{
+						"id":"1_4_1",
+						"description" : "El responsable de la estación de servicio."
+					},
+					{
+						"id":"1_4_2",
+						"description" : "El departamento de Seguridad y Medio Ambiente."
+					},
+					{
+						"id":"1_4_3",
+						"description" : "Todos.",
+						"correcta":true
+					}
+				]
+			},{
+				"titulo" : "Ante un riesgo grave e inminente:",
+                "id" : "5",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_5_1",
+						"description" : "Avisa a tu responsable, dado que es quien puede interrumpir la actividad."
+					},
+					{
+						"id":"1_5_2",
+						"description" : "Interrumpe la actividad e informa a tu responsable.",
+						"correcta":true
+					},
+					{
+						"id":"1_5_3",
+						"description" : "No es necesario hacer nada ya que no es tu función."
+					}
+				]
+			},{
+				"titulo" : "Los equipos de protección individual:",
+                "id" : "6",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_6_1",
+						"description" : "Eliminan el riesgo y son de uso obligatorio desde el inicio de la jornada."
+					},
+					{
+						"id":"1_6_2",
+						"description" : "Son de uso obligatorio en aquellas situaciones en las que no se haya podido eliminar el riesgo en su totalidad mediante la aplicación de otras medidas preventivas.",
+						"correcta":true
+					},
+					{
+						"id":"1_6_3",
+						"description" : "Impiden que ocurra el accidente y sus consecuencias. Tendrás que valorar cuándo es conveniente utilizarlos."
+					}
+				]
+			},{
+				"titulo" : "Las causas principales de los accidentes o incidentes en las estaciones de servicio son:",
+                "id" : "7",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_7_1",
+						"description" : "Caídas a mismo y a distinto nivel, sobreesfuerzos, inhalación de gases y tropiezos."
+					},
+					{
+						"id":"1_7_2",
+						"description" : "Sobreesfuerzos, fugas, derrames, caída en espacios confinados y golpes con objetos."
+					},
+					{
+						"id":"1_7_3",
+						"description" : "Sobreesfuerzos, tropiezos, caídas, no utilización o uso incorrecto de los equipos de protección individual (EPI`s), golpes y cortes y accidentes de tráfico.",
+						"correcta":true
+					}
+				]
+			},{
+				"titulo" : "Las gafas o cubre-gafas de seguridad:",
+                "id" : "8",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_8_1",
+						"description" : "Son de uso voluntario."
+					},
+					{
+						"id":"1_8_2",
+						"description" : "Son de uso obligatorio para las contratas que realicen tareas en la estación de servicio."
+					},
+					{
+						"id":"1_8_3",
+						"description" : "Son de uso obligatorio en el trasvase y manipulación de productos químicos en limpieza de pista, lavado, afericiones, suministro de combustible en garrafas, etc.",
+						"correcta":true
+					}
+				]
+			},{
+				"titulo" : "El chaleco reflectante de alta visibilidad se utiliza:",
+                "id" : "9",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_9_1",
+						"description" : "Cuando esté en pista y la tarea que esté realizando me impida prestar atención al tráfico."
+					},
+					{
+						"id":"1_9_2",
+						"description" : "Siempre que se esté fuera del edificio.",
+						"correcta":true
+					},
+					{
+						"id":"1_9_3",
+						"description" : "Cuando se trabaje en una estación atendida."
+					}
+				]
+			},{
+				"titulo" : "Durante la operación de repostaje a vehículos a clientes utilizaré:",
+                "id" : "10",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_10_1",
+						"description" : "Guantes de protección química (resistentes a hidrocarburos).",
+						"correcta":true
+					},
+					{
+						"id":"1_10_2",
+						"description" : "Guantes de protección térmica."
+					},
+					{
+						"id":"1_10_3",
+						"description" : "Guantes de protección mecánica. "
+					}
+				]
+			}
+		]
+	}]
+}

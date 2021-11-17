@@ -1,0 +1,223 @@
+{
+	"intentos":3,
+	"nota_aprobacion":0.8,
+	"limite_preguntas":10,
+	"mostrar_numero_pregunta":true,
+	"finalizacionTest":"cerrado",
+    "guardarIntentos": false,
+	"guardarObjetivos": false,
+	"modulos" : [{
+		"id":"1",
+		"titulo" : "Módulo 1",
+		"preguntas_aleatorias":false,
+		"preguntas" : [
+			{
+				"titulo" : "Para realizar de forma adecuada el levantamiento de cargas: ",
+                "id" : "1",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				"respuestas" : [
+					{
+						"id":"1_1_1",
+						"description" : "No flexiones las rodillas y mantén la espalda y el tronco superior rectos."
+					},
+					{
+						"id":"1_1_2",
+						"description" : "Pon los pies y piernas bien juntas."
+					},
+					{
+						"id":"1_1_3",
+						"description" : "Mantén la espalda recta y haz la fuerza con las piernas.",
+						"correcta":true
+					}
+				]
+			},
+			{
+				"titulo" : "En la manipulación de productos químicos: ",
+                "id" : "2",
+				"respuestas_aleatorias":false,
+				"respuestas" : [
+					{
+						"id":"1_2_1",
+						"description" : "No deposites la sepiolita usada en el contenedor de residuos."
+					},
+					{
+						"id":"1_2_2",
+						"description" : "Utiliza los guantes de protección química y las gafas de seguridad.",
+						"correcta":true
+					},
+					{
+						"id":"1_2_3",
+						"description" : "Efectúa la manipulación y el almacenaje en lugares cerrados y alejados de fuentes de calor."
+					}
+				]
+			},
+			{
+				"titulo" : "En el suministro a vehículos:",
+                "id" : "3",
+				"respuestas_aleatorias":false,
+				"respuestas" : [
+					{
+						"id":"1_3_1",
+						"description" : "Utiliza siempre el calzado de seguridad, el chaleco de alta visibilidad y los guantes de protección química.",
+						"correcta":true
+					},
+					{
+						"id":"1_3_2",
+						"description" : "En el repostaje de camiones coloca la manguera entre la cabina y la caja."
+					},
+					{
+						"id":"1_3_3",
+						"description" : "Puedes suministrar en cualquier tipo de recipiente."
+					}
+				]
+			},
+			{
+				"titulo" : "En las afericiones:",
+                "id" : "4",
+				"respuestas_aleatorias":false,
+				"respuestas" : [
+					{
+						"id":"1_4_1",
+						"description" : "Está prohibido utilizar un matraz aforado con asa y protección metálica."
+					},
+					{
+						"id":"1_4_2",
+						"description" : "Deja las bocas de descarga abiertas."
+					},
+					{
+						"id":"1_4_3",
+						"description" : "Nunca uses cartones debajo de la probeta para ganar estabilidad/recogida de derrames (si hay se limpiarán con sepiolita).",
+						"correcta":true
+					}
+				]
+			},{
+				"titulo" : "En la medición manual de tanques:",
+                "id" : "5",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_5_1",
+						"description" : "Introduce rápidamente la varilla y escucha que golpea el fondo."
+					},
+					{
+						"id":"1_5_2",
+						"description" : "Utiliza chaleco reflectante, calzado de seguridad y guantes de protección química (resistentes a hidrocarburos). ",
+						"correcta":true
+					},
+					{
+						"id":"1_5_3",
+						"description" : "Deja abierta un rato la tapa del tubo de medición del tanque para que se ventile."
+					}
+				]
+			},{
+				"titulo" : "Con relación a los espacios confinados: ",
+                "id" : "6",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_6_1",
+						"description" : "Falta de ventilación, donde pueden acumularse gases tóxicos o inflamables, y tienen una atmósfera deficiente de oxígeno.",
+						"correcta":true
+					},
+					{
+						"id":"1_6_2",
+						"description" : "Están concebidos para una ocupación continuada por parte del trabajador."
+					},
+					{
+						"id":"1_6_3",
+						"description" : "Los trabajos serán realizados por expendedores autorizados mediante el permiso de trabajo correspondiente."
+					}
+				]
+			},{
+				"titulo" : "En la descarga de camión cisterna:",
+                "id" : "7",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_7_1",
+						"description" : "Puedes descargar dos gasóleos o dos gasolinas a la vez siempre que compartan el mismo venteo."
+					},
+					{
+						"id":"1_7_2",
+						"description" : "Supervisa la correcta colocación de la pinza de toma de tierra.",
+						"correcta":true
+					},
+					{
+						"id":"1_7_3",
+						"description" : "Mide todos los compartimentos del camión cisterna. "
+					}
+				]
+			},{
+				"titulo" : "En la descarga de camión cisterna: ",
+                "id" : "8",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_8_1",
+						"description" : "Mide con varilla todos los tanques de la estación, aunque dispongas de sonda electrónica."
+					},
+					{
+						"id":"1_8_2",
+						"description" : "Cumplimenta la ficha de descarga cuando se vaya el camión cisterna."
+					},
+					{
+						"id":"1_8_3",
+						"description" : "Supervisa el proceso de conexión y desconexión de las mangueras de descarga y recuperación de vapores al camión cisterna.",
+						"correcta":true
+					}
+				]
+			},{
+				"titulo" : "Con relación al permiso de trabajo:",
+                "id" : "9",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_9_1",
+						"description" : "El expendedor podrá ser el autorizante que firma en los trabajos con riesgo alto."
+					},
+					{
+						"id":"1_9_2",
+						"description" : "Es el instrumento con el que cuenta la ES para reducir al mínimo los riesgos derivados de los trabajos de contratistas y de la concurrencia de riesgos existentes durante los mismos.",
+						"correcta":true
+					},
+					{
+						"id":"1_9_3",
+						"description" : "Se utiliza en la descarga del camión cisterna."
+					}
+				]
+			},{
+				"titulo" : "Con relación al permiso de trabajo:",
+                "id" : "10",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_10_1",
+						"description" : "La ficha de coordinación y la lista de medidas preventivas sólo se utilizarán en trabajos con riesgo muy alto."
+					},
+					{
+						"id":"1_10_2",
+						"description" : "Será siempre tu responsable y no tú el que debe solicitar los pasaportes de seguridad al personal de la empresa contratista."
+					},
+					{
+						"id":"1_10_3",
+						"description" : "Verifica que no existen incompatibilidades con las operaciones de otra contrata o con las propias operaciones de la ES.",
+						"correcta":true
+					}
+				]
+			}
+		]
+	}]
+}

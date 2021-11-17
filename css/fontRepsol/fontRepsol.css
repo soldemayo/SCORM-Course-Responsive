@@ -1,0 +1,122 @@
+
+
+@font-face {
+    font-family: 'repsol_stencilbold';
+    src: url('repsol_stencil-bold-webfont.eot');
+    src: url('repsol_stencil-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('repsol_stencil-bold-webfont.woff') format('woff'),
+         url('repsol_stencil-bold-webfont.svg#repsol_stencilbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'repsol_outlinebold';
+    src: url('repsol_outline-bold-webfont.eot');
+    src: url('repsol_outline-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('repsol_outline-bold-webfont.woff') format('woff'),
+         url('repsol_outline-bold-webfont.svg#repsol_outlinebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'repsol_stencilbold';
+    src: url('repsol_stencil-bold-webfont.eot');
+    src: url('repsol_stencil-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('repsol_stencil-bold-webfont.woff') format('woff'),
+         url('repsol_stencil-bold-webfont.svg#repsol_stencilbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'repsolbold_italic';
+    src: url('repsol-bold_italic-webfont.eot');
+    src: url('repsol-bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('repsol-bold_italic-webfont.woff') format('woff'),
+         url('repsol-bold_italic-webfont.svg#repsolbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'repsolbold';
+    src: url('repsol-bold-webfont.eot');
+    src: url('repsol-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('repsol-bold-webfont.woff') format('woff'),
+         url('repsol-bold-webfont.svg#repsolbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'repsolitalic';
+    src: url('repsol-italic-webfont.eot');
+    src: url('repsol-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('repsol-italic-webfont.woff') format('woff'),
+         url('repsol-italic-webfont.svg#repsolitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'repsollight_italic';
+    src: url('repsol-light_italic-webfont.eot');
+    src: url('repsol-light_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('repsol-light_italic-webfont.woff') format('woff'),
+         url('repsol-light_italic-webfont.svg#repsollight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'repsollight';
+    src: url('repsol-light-webfont.eot');
+    src: url('repsol-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('repsol-light-webfont.woff') format('woff'),
+         url('repsol-light-webfont.svg#repsollight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'repsolregular';
+    src: url('repsol-regular-webfont.eot');
+    src: url('repsol-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('repsol-regular-webfont.woff') format('woff'),
+         url('repsol-regular-webfont.svg#repsolregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

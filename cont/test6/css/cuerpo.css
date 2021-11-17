@@ -1,0 +1,256 @@
+@charset "UTF-8";
+/* Smartphones (portrait & landscape) */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	button{
+		width: 80% !important;
+	}
+	
+	#caja{
+		height: 15% !important;
+	}
+	
+	#botonera{
+		margin-bottom: 5vh !important;
+		margin-top: 2vh;
+	}
+	
+}
+
+button{
+	border-radius: 0.25vw;
+	border: none;
+	text-align: center;
+	font-family: 'Roboto', sans-serif !important;
+	cursor: pointer !important;
+	width: 10.5vw;
+	padding: 0.5vw;
+	padding-right: 16px;
+	padding-left: 16px;
+	transition: all .2s linear;
+	font-size: 1.65vh !important;
+}
+button.primario{
+	background-color: #03809A;
+	color: #FFF;
+}
+button.primario:hover{
+	background-color: #015161;
+	color: #FFF;
+}
+button.secundario{
+	background-color: #dff0fc;
+	color: #03809A;
+}
+
+.scrollTest{
+	background-color: #FF6200;
+	border-radius: 5px;
+	position: fixed;
+	display: flex;
+	bottom: 0vh;
+	right: 5vw;
+	z-index: 1000;
+	padding: 1vh;
+}
+.scrollTest p{
+	color: #FFF;
+	margin: 0;
+}
+.scrollTest i{
+}
+
+.capaLoading{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.spinner-border{
+    margin-top: 15%;
+    border-color: #5C881A;
+    border-right-color: transparent;
+    width: 3rem;
+    height: 3rem;
+}
+.popAprobado{
+    display: none;
+}
+.explicacion p, .explicacion li p{
+    color: #38424A;
+    font-size: 1.5rem;
+}
+
+#cajaNumerada{
+    background-color: hotpink;
+    overflow: hidden;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+}
+
+#cuerpo {
+	width: 100%;
+	border-top: none;
+	background-color: transparent;
+	overflow: hidden;
+	display: none;
+	z-index: 0;
+}
+#cabecera {
+	float: left;
+	width: 900px;
+	height: 100px;
+	background-image: url(../img/cabecera.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	margin: 0px;
+	margin-bottom: 65px;
+    display: none;
+	/* border-bottom:  solid 5px #f27621; */
+}
+.cabecera{
+    display: none;
+}
+#cabecera p {
+	font-size: 1.5vw;
+	color: #FFFFFF;
+	margin-left: 433px;
+	margin-top: 10px;
+	line-height: 1;
+	/* letter-spacing:-1px; */
+	font-weight: 400;
+	text-align: right;
+	margin-right: 30px;
+	margin-bottom: 0px;
+}
+
+#cabecera span{
+	float: right;
+	/* clear: both; */
+	/* margin-top: 30px; */
+	font-size: 18px;
+	font-weight: 100;
+	color: #FFFFFF;
+	margin-right: 30px;
+}
+
+#resultados{
+	display: none;
+	background-color: rgba(211, 212, 211, 0.15);
+	text-align: center;
+	padding: 1%;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3%;
+	width: 90%;
+	/* color: #1A171B !important; */
+	}
+#resultados2{
+	display: block !important;
+	margin: 0;
+	/* color: #1A171B !important; */
+}
+
+.feedback{
+		display:none;
+		background-color:#f27621;
+		text-align:center;
+		color:white;
+
+	}	
+#resultados h1{
+	color:#5789c7;
+	}
+
+#resultados p{
+	}
+
+#resultados span{
+	font-weight:bold;
+	}
+.tituloCorreccion{
+	margin-bottom:-30px;
+	margin-top:50px;
+	}				
+#numerada {
+	list-style: none;
+	width: 100%;
+	display: block;
+	margin-bottom: 1%;
+	padding: 0;
+	/* padding-top: 5vh; */
+	}
+
+#numerada li {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	}
+#numerada h2 {
+    margin: 0;
+    margin-bottom: 2%;
+ }
+#botonera{
+	/* width:100%; */
+	/* height:35px; */
+	text-align: center;
+	margin-bottom: 1%;
+	/* margin-top:50px; */
+	}	
+	
+
+
+.guardar{
+	display: none !important;
+}
+#textosAclaratorios{
+		float:left;
+		margin-left: 1%;
+		text-align:left;
+		max-width: 90%;
+		display: none;
+	}	
+#textosAclaratorios p{
+	float:left;
+	margin:0;
+	width:100%;
+	color: #FFFFFF;
+	font-size: 1.5rem;
+	}
+#textosAclaratorios strong{
+	color: #FFFFF;
+	}
+
+
+
+@media (max-width: 767px) and (orientation : portrait) {
+    
+    .container{
+        padding: 0;
+    }
+    
+    #numerada{
+        padding: 0;
+    }
+    
+    #numerada li{
+        width: 100%;
+    }
+    
+    .cajaPregunta li label{
+        padding: 5% !important;
+    }
+    
+    #resultados{
+        width: 100%;
+    }    
+}

@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+  background-color: #EFEEEE;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0px;
+}
+strong {
+  /* color: #FFFFFF; */
+  /* background-color: #004D74; */
+  /* padding-left: 1%; */
+  /* padding-right: 1%; */
+  font-family: 'opensansbold';
+}
+.bold {
+  font-family: 'open_sansbold';
+  color: #37424A;
+}
+.logo {
+  float: right;
+  margin-right: 1vw;
+  margin-top: 1vw;
+  width: 10vw;
+  display: none;
+}
+#caja {
+  width: 100%;
+  /* border: 1px solid #008A8E; */
+  /* float: left; */
+  /* left: 50%; */
+  /* top: 50%; */
+  /* margin-left: -450px; */
+  /* margin-top: -300px; */
+  display: flex;
+  background-image: url("../../../img/check.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 30%;
+  height: 100vh;
+}
+#titulotest {
+  width: 60%;
+  margin-top: 15vh;
+  padding: 1%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1vw;
+  line-height: 2;
+}
+#titulotest p {
+  width: 100%;
+  font-size: 2vw;
+  margin: 0px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: #F5A81C;
+}
+#titulotest i {
+  float: right;
+  line-height: 2;
+  margin: 0;
+  font-size: 1.5vw;
+}
+#titulotest span {
+  font-size: 1.5vw;
+  margin: 0;
+  padding: 1%;
+  color: #5C881A;
+  font-weight: bold;
+  text-align: center;
+}
+.tituloblanco {
+  position: absolute;
+  z-index: 99;
+  color: #63CECA;
+  top: 50px;
+  left: 50px;
+  height: 109px;
+}
+.tituloSombra {
+  position: absolute;
+  z-index: 98;
+  color: #CB90A5;
+  top: 52px;
+  left: 50px;
+}
+#explicacion {
+  max-width: 60%;
+  font-size: 1.25vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+#explicacion span {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1vw;
+  line-height: 2;
+  padding: 0;
+}
+.explicacionTitulo {
+  font-size: 2vw;
+  letter-spacing: -0.1vw;
+  line-height: 2;
+  z-index: 99;
+  color: #004D74;
+  float: left;
+  margin: 0px;
+  display: none;
+}
+.explicacionTitulosombra {
+  font-size: 25px;
+  letter-spacing: -1px;
+  line-height: 55px;
+  color: #DFDFDF;
+  position: absolute;
+  z-index: 98;
+  top: 282px;
+  left: 50px;
+}
+#img_btn {
+  float: right;
+  width: 200px;
+  margin-top: 40px;
+}
+#img_btn img {
+  float: left;
+  margin-right: 15px;
+}
+
+.reintentar {
+  /* margin-top: -40px; */
+  /* margin-bottom: 50px; */
+}
+.revisar {
+  margin-top: -40px;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,223 @@
+{
+	"intentos":3,
+	"nota_aprobacion":0.8,
+	"limite_preguntas":10,
+	"mostrar_numero_pregunta":true,
+	"finalizacionTest":"cerrado",
+    "guardarIntentos": false,
+	"guardarObjetivos": false,
+	"modulos" : [{
+		"id":"1",
+		"titulo" : "Módulo 1",
+		"preguntas_aleatorias":false,
+		"preguntas" : [
+			{
+				"titulo" : "Con relación a la gestión de residuos, es responsabilidad: ",
+                "id" : "1",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				"respuestas" : [
+					{
+						"id":"1_1_1",
+						"description" : "Del gestor de residuos de la estación."
+					},
+					{
+						"id":"1_1_2",
+						"description" : "De todo el personal de la estación de servicio llevar a cabo una gestión de residuos eficiente.",
+						"correcta":true
+					},
+					{
+						"id":"1_1_3",
+						"description" : "De la administración pública."
+					}
+				]
+			},
+			{
+				"titulo" : "Las Estaciones de Servicio disponen de los medios técnicos necesarios para proteger el medio ambiente en materia de:",
+                "id" : "2",
+				"respuestas_aleatorias":false,
+				"respuestas" : [
+					{
+						"id":"1_2_1",
+						"description" : "Tratamiento de aguas residuales."
+					},
+					{
+						"id":"1_2_2",
+						"description" : "Protección del suelo y aguas subterráneas."
+					},
+					{
+						"id":"1_2_3",
+						"description" : "Las dos respuestas anteriores son correctas.",
+						"correcta":true
+					}
+				]
+			},
+			{
+				"titulo" : "Con relación al ahorro energético:",
+                "id" : "3",
+				"respuestas_aleatorias":false,
+				"respuestas" : [
+					{
+						"id":"1_3_1",
+						"description" : "Enciende el aire acondicionado o calefacción siempre que creas que puede fomentar la venta."
+					},
+					{
+						"id":"1_3_2",
+						"description" : "Comprueba a diario la temperatura de los equipos de frío.",
+						"correcta":true
+					},
+					{
+						"id":"1_3_3",
+						"description" : "Utiliza estufas de gas, radiadores infrarrojos, o convectores con resistencias."
+					}
+				]
+			},
+			{
+				"titulo" : "Con relación a la gestión del agua: ",
+                "id" : "4",
+				"respuestas_aleatorias":false,
+				"respuestas" : [
+					{
+						"id":"1_4_1",
+						"description" : "No es necesario reparar averías o fugas de agua si son pequeñas."
+					},
+					{
+						"id":"1_4_2",
+						"description" : "Comunica a tu superior si se observa cualquier avería o fuga de agua, por mínima que sea.",
+						"correcta":true
+					},
+					{
+						"id":"1_4_3",
+						"description" : "Corta el agua si no hay clientes en la estación."
+					}
+				]
+			},{
+				"titulo" : "En la gestión de residuos:",
+                "id" : "5",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_5_1",
+						"description" : "El separador de hidrocarburos es responsabilidad del gestor de residuos."
+					},
+					{
+						"id":"1_5_2",
+						"description" : "Es necesario comprobar que los separadores de hidrocarburos no acumulen exceso de residuos que puedan impedir su correcto funcionamiento.",
+						"correcta":true
+					},
+					{
+						"id":"1_5_3",
+						"description" : "Recoger con serrín los pequeños derrames de producto en las zonas de pista."
+					}
+				]
+			},{
+				"titulo" : "Con relación a la protección de suelos y aguas subterráneas:",
+                "id" : "6",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_6_1",
+						"description" : "No es necesario mantener las arquetas limpias."
+					},
+					{
+						"id":"1_6_2",
+						"description" : "Es fundamental la conciliación de carburante para detectar derrames inadvertidos o fallos en las instalaciones.",
+						"correcta":true
+					},
+					{
+						"id":"1_6_3",
+						"description" : "Entra en las bocas de hombre para comprobar la presencia de vertidos o derrames."
+					}
+				]
+			},{
+				"titulo" : "Con relación al tratamiento de aguas residuales:",
+                "id" : "7",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_7_1",
+						"description" : "Utiliza los desagües para desechar desperdicios."
+					},
+					{
+						"id":"1_7_2",
+						"description" : "Mantén las rejillas y canaletas de aguas hidrocarburadas obturadas para evitar que entre un derrame de carburante."
+					},
+					{
+						"id":"1_7_3",
+						"description" : "Examina periódicamente la cantidad de hidrocarburos en el separador.",
+						"correcta":true
+					}
+				]
+			},{
+				"titulo" : "Con relación a la protección atmosférica:",
+                "id" : "8",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_8_1",
+						"description" : "Sube a medir los compartimentos de gasolina del vehículo cisterna."
+					},
+					{
+						"id":"1_8_2",
+						"description" : "No tapes los tubos de medición tras medir un tanque."
+					},
+					{
+						"id":"1_8_3",
+						"description" : "Supervisa siempre en la descarga la correcta conexión de la manguera de recuperación de vapores.",
+						"correcta":true
+					}
+				]
+			},{
+				"titulo" : "En la descarga, la manguera de recuperación de vapores:",
+                "id" : "9",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_9_1",
+						"description" : "Debe conectarse siempre de principio a fin."
+					},
+					{
+						"id":"1_9_2",
+						"description" : "Debe conectarse siempre que se descargue gasolina.",
+						"correcta":true
+					},
+					{
+						"id":"1_9_3",
+						"description" : "Es opcional."
+					}
+				]
+			},{
+				"titulo" : "Los guantes manchados de hidrocarburo se depositarán en los contenedores de:",
+                "id" : "10",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_10_1",
+						"description" : "Materia orgánica."
+					},
+					{
+						"id":"1_10_2",
+						"description" : "Envases."
+					},
+					{
+						"id":"1_10_3",
+						"description" : "Residuos peligrosos.",
+						"correcta":true
+					}
+				]
+			}
+		]
+	}]
+}

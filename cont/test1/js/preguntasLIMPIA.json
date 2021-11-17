@@ -1,0 +1,223 @@
+{
+	"intentos":100,
+	"nota_aprobacion":0.5,
+	"limite_preguntas":10,
+	"mostrar_numero_pregunta":true,
+	"finalizacionTest":"abierto",
+    "guardarIntentos": false,
+	"guardarObjetivos": false,
+	"modulos" : [{
+		"id":"1",
+		"titulo" : "Módulo 1",
+		"preguntas_aleatorias":true,
+		"preguntas" : [
+			{
+				"titulo" : "PREGUNTA",
+                "id" : "1",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				"respuestas" : [
+					{
+						"id":"1_1_1",
+						"description" : "RESPUESTA"
+					},
+					{
+						"id":"1_1_2",
+						"description" : "RESPUESTA",
+						"correcta":true
+					},
+					{
+						"id":"1_1_3",
+						"description" : "RESPUESTA"
+					}
+				]
+			},
+			{
+				"titulo" : "PREGUNTA",
+                "id" : "2",
+				"respuestas_aleatorias":false,
+				"respuestas" : [
+					{
+						"id":"1_2_1",
+						"description" : "RESPUESTA"
+					},
+					{
+						"id":"1_2_2",
+						"description" : "RESPUESTA"
+					},
+					{
+						"id":"1_2_3",
+						"description" : "RESPUESTA",
+						"correcta":true
+					}
+				]
+			},
+			{
+				"titulo" : "PREGUNTA",
+                "id" : "3",
+				"respuestas_aleatorias":false,
+				"respuestas" : [
+					{
+						"id":"1_3_1",
+						"description" : "RESPUESTA",
+						"correcta":true
+					},
+					{
+						"id":"1_3_2",
+						"description" : "RESPUESTA"
+					},
+					{
+						"id":"1_3_3",
+						"description" : "RESPUESTA"
+					}
+				]
+			},
+			{
+				"titulo" : "PREGUNTA",
+                "id" : "4",
+				"respuestas_aleatorias":false,
+				"respuestas" : [
+					{
+						"id":"1_4_1",
+						"description" : "RESPUESTA"
+					},
+					{
+						"id":"1_4_2",
+						"description" : "RESPUESTA"
+					},
+					{
+						"id":"1_4_3",
+						"description" : "RESPUESTA",
+						"correcta":true
+					}
+				]
+			},{
+				"titulo" : "PREGUNTA",
+                "id" : "5",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_5_1",
+						"description" : "RESPUESTA"
+					},
+					{
+						"id":"1_5_2",
+						"description" : "RESPUESTA",
+						"correcta":true
+					},
+					{
+						"id":"1_5_3",
+						"description" : "RESPUESTA"
+					}
+				]
+			},{
+				"titulo" : "PREGUNTA",
+                "id" : "6",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_6_1",
+						"description" : "RESPUESTA",
+						"correcta":true
+					},
+					{
+						"id":"1_6_2",
+						"description" : "RESPUESTA"
+					},
+					{
+						"id":"1_6_3",
+						"description" : "RESPUESTA"
+					}
+				]
+			},{
+				"titulo" : "PREGUNTA",
+                "id" : "7",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_7_1",
+						"description" : "RESPUESTA"
+					},
+					{
+						"id":"1_7_2",
+						"description" : "RESPUESTA"
+					},
+					{
+						"id":"1_7_3",
+						"description" : "RESPUESTA",
+						"correcta":true
+					}
+				]
+			},{
+				"titulo" : "PREGUNTA",
+                "id" : "8",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_8_1",
+						"description" : "RESPUESTA",
+						"correcta":true
+					},
+					{
+						"id":"1_8_2",
+						"description" : "RESPUESTA"
+					},
+					{
+						"id":"1_8_3",
+						"description" : "RESPUESTA"
+					}
+				]
+			},{
+				"titulo" : "PREGUNTA",
+                "id" : "9",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_9_1",
+						"description" : "RESPUESTA"
+					},
+					{
+						"id":"1_9_2",
+						"description" : "RESPUESTA",
+						"correcta":true
+					},
+					{
+						"id":"1_9_3",
+						"description" : "RESPUESTA"
+					}
+				]
+			},{
+				"titulo" : "PREGUNTA",
+                "id" : "10",
+				"respuestas_aleatorias":false,
+				"feddback":"feddback RESPUESTA CORRECTA",
+				
+				"respuestas" : [
+					{
+						"id":"1_10_1",
+						"description" : "RESPUESTA"
+					},
+					{
+						"id":"1_10_2",
+						"description" : "RESPUESTA"
+					},
+					{
+						"id":"1_10_3",
+						"description" : "RESPUESTA",
+						"correcta":true
+					}
+				]
+			}
+		]
+	}]
+}
